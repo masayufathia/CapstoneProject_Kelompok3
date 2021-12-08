@@ -1,0 +1,96 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.Shelly.Capstone"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:6:5-67
+11-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:7:5-68
+12-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:7:22-65
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:8:5-66
+13-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:8:22-63
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[io.realm:realm-android-library-object-server:5.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\57caeff5c8a2666ef926f2186032f082\jetified-realm-android-library-object-server-5.1.0\AndroidManifest.xml:10:5-79
+14-->[io.realm:realm-android-library-object-server:5.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\57caeff5c8a2666ef926f2186032f082\jetified-realm-android-library-object-server-5.1.0\AndroidManifest.xml:10:22-76
+15
+16    <application
+16-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:10:5-41:19
+17        android:allowBackup="true"
+17-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.3.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\56b8faf7ef3b4d033ffa4daba09a688f\core-1.3.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:12:9-43
+21        android:label="@string/app_name"
+21-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:13:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:14:9-54
+23        android:supportsRtl="true"
+23-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:15:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme"
+25-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:16:9-40
+26        android:usesCleartextTraffic="true" >
+26-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:17:9-44
+27        <activity android:name="com.Shelly.Capstone.activities.DetailMovieActivity" />
+27-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:19:9-87
+27-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:19:19-84
+28        <activity android:name="com.Shelly.Capstone.activities.MainActivity" />
+28-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:20:9-80
+28-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:20:19-77
+29        <activity android:name="com.Shelly.Capstone.activities.SplashScreen" >
+29-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:21:9-28:20
+29-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:21:19-77
+30            <intent-filter>
+30-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:23:13-27:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:24:17-69
+31-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:24:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:26:17-77
+33-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:26:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <receiver
+37-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:30:9-34:47
+38            android:name="com.Shelly.Capstone.notification.NotificationReleaseReceiver"
+38-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:31:13-88
+39            android:enabled="true"
+39-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:32:13-35
+40            android:exported="true" />
+40-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:33:13-36
+41        <receiver
+41-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:36:9-40:47
+42            android:name="com.Shelly.Capstone.notification.NotificationDailyReceiver"
+42-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:37:13-86
+43            android:enabled="true"
+43-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:38:13-35
+44            android:exported="true" />
+44-->E:\Android Movie\CapstoneProject_Movies-master\CapstoneProject_Movies-master\app\src\main\AndroidManifest.xml:39:13-36
+45
+46        <provider
+46-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\9dc5c375da571326294070b4d59ce80f\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+47            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\9dc5c375da571326294070b4d59ce80f\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+48            android:authorities="com.Shelly.Capstone.lifecycle-process"
+48-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\9dc5c375da571326294070b4d59ce80f\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+49            android:exported="false"
+49-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\9dc5c375da571326294070b4d59ce80f\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+50            android:multiprocess="true" />
+50-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\9dc5c375da571326294070b4d59ce80f\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+51    </application>
+52
+53</manifest>
